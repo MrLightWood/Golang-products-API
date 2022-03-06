@@ -1,0 +1,6 @@
+loglevel: 0
+api:
+  httpport: 8081
+  logging: true
+store:
+  dbpath: "\\db\\store_test.db"

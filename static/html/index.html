@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Products API</title>
+</head>
+<body>
+    <h1>Welcome to products API</h1>
+
+    <h2>Here are available API endpoints</h3>
+
+    <h3><strong>Category:</strong></h5>
+    <ul>
+        <li><strong>GET</strong> <a href="/api/categories">/api/categories</a> | Get all categories </li>
+        <li><strong>GET</strong> <a href="/api/categories/1">/api/categories/:id</a> | Get category of id <em>id</em>
+        <li><strong>POST</strong> /api/categories | create a category. Send value "name: string" as JSON in body</li>
+        <li><strong>PUT</strong> /api/categories/:id | update a category of id <em>id</em>. Send value "name: string" as JSON in body</li>
+        <li><strong>DELETE</strong> /api/categories/:id | delete a category of id <em>id</em>
+    </ul>
+    <br>
+    <h3><strong>Product:</strong></h5>
+        <ul>
+            <li><strong>GET</strong> <a href="/api/products">/api/products</a> | Get all products </li>
+            <li><strong>GET</strong> <a href="/api/products/1">/api/products/:id</a> | Get product of id <em>id</em>
+            <li><strong>POST</strong> /api/products | create a category. Send value "name: string", "description: string", "category: int", "price: int" as JSON in body</li>
+            <li><strong>PUT</strong> /api/products/:id | update a category of id <em>id</em> Send value "name: string", "description: string", "category: int", "price: int" as JSON in body</li>
+            <li><strong>DELETE</strong> /api/products/:id | delete a category of id <em>id</em>
+        </ul>
+</body>
+</html>
