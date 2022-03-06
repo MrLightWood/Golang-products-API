@@ -8,7 +8,7 @@ A simple REST API for a catalog of products
 - `github.com/labstack/echo/v4` - used for developing a REST service;
 
 #### Validation
-- `gopkg.in/go-playground/validator.v10` - для _data validation_  
+- `gopkg.in/go-playground/validator.v10` - for _data validation_  
 
 #### Database
 - `database/sql`
